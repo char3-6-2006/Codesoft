@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #f3ec78, #af4261);
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background: #f0f0f0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Skills Section */
+
+
+#Communicationskills li {
+    display: inline-block;
+    background: #f0f0f0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.project {
+    background: #e0f7fa;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Resume Link */
+#resume a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
